@@ -1,0 +1,20 @@
+{
+    "NAME": "car",
+
+    "GPU_IDS": "0",
+    "IMAGES_PER_GPU": 1,
+
+    "BACKBONE": "resnet50",
+    "IMAGE_RESIZE_MODE": "square",
+
+    "NUM_CLASSES": 28,
+    "IMAGE_MIN_DIM": 832,
+    "IMAGE_MAX_DIM": 832,
+    "USE_MINI_MASK": false,
+    "MAX_GT_INSTANCES": 30,
+
+    "DETECTION_MIN_CONFIDENCE": 0.9,
+    "DETECTION_NMS_THRESHOLD": 0.4,
+
+    "POST_NMS_ROIS_INFERENCE": 3000
+}

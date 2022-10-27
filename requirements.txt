@@ -1,0 +1,10 @@
+h5py
+matplotlib
+pycocotools
+opencv-python==4.5.2.54
+scikit-image
+scikit-learn
+tensorpack
+# tensorflow-gpu==1.15
+# keras==2.2.4
+parmap
